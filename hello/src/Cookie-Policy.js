@@ -133,7 +133,7 @@ function cookiePolicy() {
         .
       </p>
       <footer>
-        <a className="linkToHomepage" href="hello/src/App.js">
+        <a className="linkToHomepage" href="./App.js">
           Back To Homepage
         </a>
       </footer>
