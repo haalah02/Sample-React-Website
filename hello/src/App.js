@@ -1,5 +1,5 @@
 
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import logo from "./logo.svg";
 import CookiePolicy from "../src/pages/Cookie-Policy";
 import "./App.css";
@@ -22,7 +22,7 @@ function App() {
         </header>
        
         <footer>
-          <CookiePolicy></CookiePolicy>
+          {/* <CookiePolicy></CookiePolicy> */}
         {/* <a
             className="Policy"
             src="hello/src/pages/Cookie-Policy.js"
@@ -31,6 +31,7 @@ function App() {
           >
             Cookie Policy
           </a> */}
+          <Link to="/cookiePolicy">Contact</Link>  
         {/* <Route path="hello/src/pages/Cookie-Policy.js" component={CookiePolicy} />  */}
         </footer>
        
