@@ -9,9 +9,11 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <React.StrictMode>
   <BrowserRouter>      <Routes>     
-  <Route path="/" element={<Layout />}>             
-      <Route path="cookiePolicy" element={<cookiePolicy />} />           </Route>      </Routes>    </BrowserRouter>
+  <Route path="/" element={<App1 />}>             
+      <Route path="cookiePolicy" element={<Layout />} />           </Route>      </Routes>    </BrowserRouter>
+      </React.StrictMode>
   // <React.StrictMode>
   //   <App1 />
   // </React.StrictMode>
