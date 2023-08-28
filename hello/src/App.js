@@ -21,7 +21,7 @@ function App() {
       <footer> 
       <a
           className="Cookie-Policy-Link"
-          href="hello/src/Cookie-Policy.js"
+          href="/Cookie-Policy.js/"
           // target="_blank"
           // rel="noopener noreferrer"
         >
