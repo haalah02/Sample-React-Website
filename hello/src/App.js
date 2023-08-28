@@ -24,7 +24,7 @@ function App() {
         </a>
       </header>
       <footer> 
-      <Link to="/Cookie-Policy/">Cookie Policy</Link>
+      <Link to="/Cookie-Policy">Cookie Policy</Link>
       </footer>
     </div>
   );
