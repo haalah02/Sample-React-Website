@@ -14,7 +14,7 @@
 
 function cookiePolicy() {
   return (
-    <div className="App">
+    <div className="policy">
       <h1 class="cookie-policy-h1">Cookie Policy</h1>
       <p>
         Effective Date: 28-Aug-2023 <br />
