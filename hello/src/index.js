@@ -9,13 +9,16 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <BrowserRouter>      <Routes>     
+  <Route path="/" element={<Layout />}>             
+      <Route path="cookiePolicy" element={<cookiePolicy />} />           </Route>      </Routes>    </BrowserRouter>
   // <React.StrictMode>
   //   <App1 />
   // </React.StrictMode>
 );
-export default function App() {  return (    <BrowserRouter>      <Routes>     
-     <Route path="/" element={<Layout />}>             
-         <Route path="cookiePolicy" element={<cookiePolicy />} />           </Route>      </Routes>    </BrowserRouter>  ); }
+// export default function App() {  return (    <BrowserRouter>      <Routes>     
+//      <Route path="/" element={<Layout />}>             
+//          <Route path="cookiePolicy" element={<cookiePolicy />} />           </Route>      </Routes>    </BrowserRouter>  ); }
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
