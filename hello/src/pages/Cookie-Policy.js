@@ -1,15 +1,4 @@
 
-  /* <style>
-    a.cky-banner-element {
-        padding: 8px 30px;
-        background: #F8F9FA;
-        color: #858A8F;
-        border: 1px solid #DEE2E6;
-        box-sizing: border-box;
-        border-radius: 2px;
-        cursor: pointer;
-}
-</style> */
 
 import React from 'react';
 
