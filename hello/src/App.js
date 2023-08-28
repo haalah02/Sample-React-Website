@@ -18,6 +18,16 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer> 
+      <a
+          className="Cookie-Policy-Link"
+          href="hello/src/Cookie-Policy.js"
+          // target="_blank"
+          // rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </footer>
     </div>
   );
 }

@@ -132,6 +132,11 @@ function cookiePolicy() {
         </a>
         .
       </p>
+      <footer>
+        <a className="linkToHomepage" href="hello/src/App.js">
+          Back To Homepage
+        </a>
+      </footer>
     </div>
   );
 }
