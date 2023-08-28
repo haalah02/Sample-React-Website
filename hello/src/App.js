@@ -22,7 +22,7 @@ function App() {
           </a>
         </header>
         <footer>
-          <Link className="Cookie-Policy-Link" to="./Cookie-Policy.js">
+          <Link className="Cookie-Policy-Link" to="/Cookie-Policy/">
             Cookie Policy
           </Link>
         </footer>
