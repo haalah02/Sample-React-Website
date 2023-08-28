@@ -1,5 +1,4 @@
 // import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 // import cookiePolicy from './cookiePolicy'; // Import your CookiePolicy component
 import { Link } from 'react-router-dom';
 import logo from './logo.svg';
