@@ -1,7 +1,7 @@
 // import React from 'react';
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 // import cookiePolicy from './cookiePolicy'; // Import your CookiePolicy component
-
+import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,14 +24,7 @@ function App() {
         </a>
       </header>
       <footer> 
-      <a
-          className="Cookie-Policy-Link"
-          href="./Cookie-Policy.js"
-          // target="_blank"
-          // rel="noopener noreferrer"
-        >
-          Cookie Policy
-        </a>
+      <Link to="/Cookie-Policy/">Cookie Policy</Link>
       </footer>
     </div>
   );

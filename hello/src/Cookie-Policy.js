@@ -1,4 +1,4 @@
-{
+
   /* <style>
     a.cky-banner-element {
         padding: 8px 30px;
@@ -10,7 +10,7 @@
         cursor: pointer;
 }
 </style> */
-}
+
 
 function cookiePolicy() {
   return (
