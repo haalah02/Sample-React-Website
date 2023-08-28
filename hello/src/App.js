@@ -22,7 +22,7 @@ function App() {
         </header>
        
         <footer>
-          {/* <CookiePolicy></CookiePolicy> */}
+          <CookiePolicy></CookiePolicy>
         {/* <a
             className="Policy"
             src="hello/src/pages/Cookie-Policy.js"
