@@ -13,7 +13,7 @@ function App() {
           <p>Hello World!</p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.cookieyes.com/documentation/cookie-policy-wordpress/"
             target="_blank"
             rel="noopener noreferrer"
           >
