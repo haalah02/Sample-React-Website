@@ -11,6 +11,7 @@
 }
 </style> */
 
+import React from 'react';
 
 function cookiePolicy() {
   return (
