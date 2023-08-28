@@ -1,6 +1,7 @@
 
 
 import logo from "./logo.svg";
+import CookiePolicy from "../src/pages/Cookie-Policy";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         </header>
        
         <footer>
+          <CookiePolicy></CookiePolicy>
         <a
             className="Policy"
             src="hello/src/pages/Cookie-Policy.js"
