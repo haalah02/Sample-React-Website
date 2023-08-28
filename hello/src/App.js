@@ -1,8 +1,5 @@
-
-import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-
 
 function App() {
   return (
@@ -22,7 +19,14 @@ function App() {
         </a>
       </header>
       <footer> 
-      <Link to="/Cookie-Policy">Cookie Policy</Link>
+      <a
+          className="Cookie-Policy-Link"
+          href="/Cookie-Policy/"
+          // target="_blank"
+          // rel="noopener noreferrer"
+        >
+          Cookie Policy
+        </a>
       </footer>
     </div>
   );
