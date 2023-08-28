@@ -1,5 +1,4 @@
-import React from 'react';
-// import cookiePolicy from './cookiePolicy'; // Import your CookiePolicy component
+
 import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
